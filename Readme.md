@@ -18,3 +18,10 @@ Dependency
  npm i  --save-dev nodemon 
  npm i -D nodemon
 ```
+
+## Setup prettier 
+- install prettier 
+`
+npm i -D prettier
+`
+- add prettierrc file
