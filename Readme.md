@@ -92,4 +92,12 @@ JSON Web Token (JWT) is used as a bearer token, it follows this exact rule: whoe
 
 ## Mongoose pre hook middleware 
 
+# Video 10
+
+## File upload on DB
+
+### Third party service cloudnary 
+
+### Multer
+
 
