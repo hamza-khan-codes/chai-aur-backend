@@ -97,7 +97,18 @@ JSON Web Token (JWT) is used as a bearer token, it follows this exact rule: whoe
 ## File upload on DB
 
 ### Third party service cloudnary 
+```
+
+npm i cloudinary
+
+```
 
 ### Multer
+
+```
+
+npm i multer
+
+```
 
 
