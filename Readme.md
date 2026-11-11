@@ -110,5 +110,102 @@ npm i cloudinary
 npm i multer
 
 ```
+// ----------------------------
+
+# HTTP (hyper text transfer protocol)
+
+- URL => Uniform Resource Locator
+ A specific type of URI that not only identifies a resource but also provides a network address or location and the protocol needed to access it ``` (e.g., https:// or ftp://) ```.
+
+- URI => Uniform Resource Identifier
+ The broad umbrella term for any string of characters that identifies a resource. It can identify something by location, by name, or both. All URLs and URNs are URIs.
+
+- URN => Uniform Resource Name
+A specific type of URI that identifies a resource by a persistent, location-independent name within a defined namespace. It tells you what something is called, not where it is located.
+
+## What is headers ?
+- metadata => key value send with request & response
+- use for => caching ,authentication,manage statel and more
+- x-prefix but it deprecated "write hear date when it deprecated"
+
+=> Request headers - from cliend
+
+=> Response headers - from server
+
+=> Representation headers - encoding compression
+
+=> Payload headers - data
+
+### Most common headers 
+- Accept : aplication / json
+- User - agent "Its only tell request is which application engin like postman,safari,microsoft...
+- Autherization 
+- content type - pdf,png...
+- cookie
+- cache - control
+
+### cors
+- Access - control -  allow - origin
+- Access - control - allow - credentials
+- Access - control - method
+
+### Security
+- cross - origin - embadder - policy
+- cross - origin - opener - policy
+- content - security - policy
+- X - XSS - Protection
+
+ HTTP Methods
+ -
+Basic set of operations that can be used to interact with server
+
+- GET : Retrive a resource.
+- HEAD : No message body (response headers only)
+- OPENTIONS : what operation are available
+- TRACE : Loopback test (get same data)
+- DELETE : Remove a resource
+- PUT : Replace a resource
+- POST : Interact with resource
+- PATCH : Change part of a resource
+
+Staus Codes
+-
+- 1xx - Information
+- 2xx - Success
+- 3xx - Redirection
+- 4xx - Client error
+- 5xx - Server error
+
+100 continue 
+
+102 Processing
+
+200 OK
+
+201 created 
+
+202 accepted
+
+307 temperary redirect
+
+308 Permanent redirect
+
+400 Bad request
+
+401 Unautherized
+
+402 Payment required
+
+404 Not found
+
+500 Internal server error
+
+504 Gate way time out
+
+
+
+
+
+
 
 
