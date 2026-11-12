@@ -18,4 +18,12 @@ app.use(express.urlencoded({
 app.use(express.static("public"))
 app.use(cookieParser()) // For securely allowing cookie user browser CURD operation
 
+// routes import 
+import userRouter from "./routes/user.routes.js"
+
+// routes declaration
+// app.use("/users", userRouter) // http://localhost:800/users/register
+app.use("/api/v1/users", userRouter) // better approch
+// http://localhost:800/api/v1/users/register
+
 export default app
