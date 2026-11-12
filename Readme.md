@@ -201,11 +201,3 @@ Staus Codes
 500 Internal server error
 
 504 Gate way time out
-
-
-
-
-
-
-
-
